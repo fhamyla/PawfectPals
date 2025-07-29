@@ -7,7 +7,10 @@
         <title>Pawfect Pals</title>
         
         <!-- Favicon -->
-        <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTYiIGZpbGw9IiNGRkQxREMiLz4KPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iNCIgZmlsbD0iIzVGN0Y1RiIvPgo8Y2lyY2xlIGN4PSIyMCIgY3k9IjEyIiByPSI0IiBmaWxsPSIjNUY3RjVGIi8+CjxwYXRoIGQ9Ik0xNiAxOCBMMTQgMjAgTDE4IDIwIFoiIGZpbGw9IiM1RjdGNUYiLz4KPHBhdGggZD0iTTEwIDE0IEwxMiAxNiBMMTAgMTgiIHN0cm9rZT0iIzVGN0Y1RiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+CjxwYXRoIGQ9Ik0yMiAxNCBMMjAgMTYgTDIyIDE4IiBzdHJva2U9IiM1RjdGNUYiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="apple-touch-icon" href="/favicon.png">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,12 +71,11 @@
             .logo-icon {
                 width: 30px;
                 height: 30px;
-                background-color: var(--soft-pink);
-                border-radius: 50%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-size: 1.2rem;
+                image-rendering: -webkit-optimize-contrast;
+                image-rendering: crisp-edges;
             }
 
             .nav-links {
@@ -350,7 +352,9 @@
             <div class="container">
                 <nav class="nav">
                     <div class="logo">
-                        <div class="logo-icon">🐾</div>
+                        <div class="logo-icon">
+                            <img src="/favicon.png" alt="Pawfect Pals Logo" width="30" height="30">
+                        </div>
                         <span>Pawfect Pals</span>
                     </div>
                     <ul class="nav-links">
