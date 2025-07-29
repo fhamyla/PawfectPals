@@ -1,0 +1,49 @@
+# Laravel & PHP
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+.env.*.backup
+.env.backup
+# OS
+.DS_Store
+Thumbs.db
+# Composer
+composer.phar
+# Laravel Telescope
+storage/telescope
+# Laravel Horizon
+storage/horizon
+# Laravel Nova
+nova-components/
+# Log files
+*.log
+# Database
+/database/*.sqlite
+/database/*.sqlite3
+/database/database.sqlite
+/database/database.sqlite3
+# Cache
+/storage/framework/cache/data
+# Laravel Mix
+/public/hot
+/public/mix-manifest.json
+/public/css/app.css.map
+/public/js/app.js.map
+# Misc
+*.swp
+*.bak
+*.tmp
+*.temp
