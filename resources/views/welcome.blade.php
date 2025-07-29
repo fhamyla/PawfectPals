@@ -7,6 +7,7 @@
         <title>Pawfect Pals</title>
         
         <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=1" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -353,7 +354,7 @@
                 <nav class="nav">
                     <div class="logo">
                         <div class="logo-icon">
-                            <img src="/favicon-32x32.png" alt="Pawfect Pals Logo" width="30" height="30">
+                            <img src="/android-chrome-192x192.svg" alt="Pawfect Pals Logo" width="30" height="30">
                         </div>
                         <span>Pawfect Pals</span>
                     </div>
