@@ -202,7 +202,6 @@
                 max-width: 400px;
                 height: auto;
                 border-radius: 20px;
-                box-shadow: 0 20px 40px rgba(0,0,0,0.1);
                 animation: float 6s ease-in-out infinite;
             }
 
