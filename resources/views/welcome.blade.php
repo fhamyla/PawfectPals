@@ -7,10 +7,10 @@
         <title>Pawfect Pals</title>
         
         <!-- Favicon -->
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
-        <link rel="shortcut icon" href="/favicon.png">
-        <link rel="apple-touch-icon" href="/favicon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -353,7 +353,7 @@
                 <nav class="nav">
                     <div class="logo">
                         <div class="logo-icon">
-                            <img src="/favicon.png" alt="Pawfect Pals Logo" width="30" height="30">
+                            <img src="/favicon-32x32.png" alt="Pawfect Pals Logo" width="30" height="30">
                         </div>
                         <span>Pawfect Pals</span>
                     </div>
