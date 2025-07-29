@@ -247,6 +247,54 @@
                 50% { transform: translateY(-15px) rotate(5deg); }
             }
 
+            /* Shadow Box Styles */
+            .shadow-box {
+                position: absolute;
+                bottom: -20px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: var(--white);
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+                padding: 1.5rem;
+                max-width: 300px;
+                width: 90%;
+                border: 2px solid var(--soft-pink);
+                animation: shadow-box-float 4s ease-in-out infinite;
+            }
+
+            .shadow-box-content {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            .shadow-box-icon {
+                font-size: 2rem;
+                flex-shrink: 0;
+            }
+
+            .shadow-box-text h3 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 1rem;
+                font-weight: 600;
+                color: var(--gray);
+                margin: 0 0 0.5rem 0;
+            }
+
+            .shadow-box-text p {
+                font-size: 0.9rem;
+                color: var(--gray);
+                opacity: 0.8;
+                margin: 0;
+                line-height: 1.4;
+            }
+
+            @keyframes shadow-box-float {
+                0%, 100% { transform: translateX(-50%) translateY(0px); }
+                50% { transform: translateX(-50%) translateY(-5px); }
+            }
+
             /* Responsive Design */
             @media (max-width: 768px) {
                 .hero-content {
@@ -269,6 +317,15 @@
 
                 .cat-image {
                     max-width: 300px;
+                }
+
+                .shadow-box {
+                    position: relative;
+                    bottom: 0;
+                    left: 0;
+                    transform: none;
+                    margin-top: 1rem;
+                    max-width: 100%;
                 }
             }
 
@@ -329,6 +386,17 @@
                             <div class="floating-element">🐾</div>
                             <div class="floating-element">❤️</div>
                             <div class="floating-element">😺</div>
+                        </div>
+                        
+                        <!-- Shadow Box Below Cat Image -->
+                        <div class="shadow-box">
+                            <div class="shadow-box-content">
+                                <div class="shadow-box-icon">🏠</div>
+                                <div class="shadow-box-text">
+                                    <h3>Safe & Loving Homes</h3>
+                                    <p>All our cats are well-cared for and ready for cuddles!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
