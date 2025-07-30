@@ -213,6 +213,52 @@
             </div>
         </section>
 
+        <!-- How It Works Section -->
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">How It Works</h2>
+                    <p class="section-subtitle">Getting your purr-fect companion is as easy as 1-2-3!</p>
+                </div>
+                
+                <div class="steps-grid">
+                    <!-- Step 1 -->
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <span>🐾</span>
+                        </div>
+                        <div class="step-number">1</div>
+                        <h3 class="step-title">Pick your purrfect match</h3>
+                        <p class="step-description">Browse our adorable cats and find the one that matches your personality and lifestyle.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <span>📅</span>
+                        </div>
+                        <div class="step-number">2</div>
+                        <h3 class="step-title">Book for a day or weekend</h3>
+                        <p class="step-description">Choose your preferred dates and duration. We offer flexible booking options to fit your schedule.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <span>❤️</span>
+                        </div>
+                        <div class="step-number">3</div>
+                        <h3 class="step-title">Enjoy quality cat time!</h3>
+                        <p class="step-description">Spend quality time with your chosen feline friend. Create memories and experience the joy of cat companionship.</p>
+                    </div>
+                </div>
+
+                <div class="cta-container">
+                    <a href="#cats" class="btn btn-primary">Start Browsing Cats</a>
+                </div>
+            </div>
+        </section>
+
         <!-- JavaScript for smooth scrolling -->
         <script>
             // Smooth scrolling for anchor links
