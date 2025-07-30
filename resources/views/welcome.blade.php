@@ -361,7 +361,7 @@
                         </div>
                         <div class="testimonial-author">
                             <div class="author-avatar">
-                                <span>👨‍🏃‍♂️</span>
+                                <span>🏃‍♂️</span>
                             </div>
                             <div class="author-info">
                                 <h4 class="author-name">Alex Martinez</h4>
