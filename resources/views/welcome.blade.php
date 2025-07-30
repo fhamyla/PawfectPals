@@ -95,7 +95,7 @@
                     <!-- Cat Card 1 -->
                     <div class="cat-card">
                         <div class="cat-image">
-                            <img src="/cat.png" alt="Luna" class="cat-photo">
+                            <img src="/luna.jpg" alt="Luna" class="cat-photo">
                             <div class="cat-overlay">
                                 <button class="rent-btn">Rent Me</button>
                             </div>
@@ -114,7 +114,7 @@
                     <!-- Cat Card 2 -->
                     <div class="cat-card">
                         <div class="cat-image">
-                            <img src="/cat.png" alt="Mr. Whiskers" class="cat-photo">
+                            <img src="/whiskers.jpg" alt="Mr. Whiskers" class="cat-photo">
                             <div class="cat-overlay">
                                 <button class="rent-btn">Rent Me</button>
                             </div>
@@ -133,7 +133,7 @@
                     <!-- Cat Card 3 -->
                     <div class="cat-card">
                         <div class="cat-image">
-                            <img src="/cat.png" alt="Bella" class="cat-photo">
+                            <img src="/bella.jpg" alt="Bella" class="cat-photo">
                             <div class="cat-overlay">
                                 <button class="rent-btn">Rent Me</button>
                             </div>
@@ -152,7 +152,7 @@
                     <!-- Cat Card 4 -->
                     <div class="cat-card">
                         <div class="cat-image">
-                            <img src="/cat.png" alt="Shadow" class="cat-photo">
+                            <img src="/shadow.jpg" alt="Shadow" class="cat-photo">
                             <div class="cat-overlay">
                                 <button class="rent-btn">Rent Me</button>
                             </div>
@@ -171,7 +171,7 @@
                     <!-- Cat Card 5 -->
                     <div class="cat-card">
                         <div class="cat-image">
-                            <img src="/cat.png" alt="Mittens" class="cat-photo">
+                            <img src="/mittens.jpg" alt="Mittens" class="cat-photo">
                             <div class="cat-overlay">
                                 <button class="rent-btn">Rent Me</button>
                             </div>
@@ -190,7 +190,7 @@
                     <!-- Cat Card 6 -->
                     <div class="cat-card">
                         <div class="cat-image">
-                            <img src="/cat.png" alt="Tiger" class="cat-photo">
+                            <img src="/tiger.jpg" alt="Tiger" class="cat-photo">
                             <div class="cat-overlay">
                                 <button class="rent-btn">Rent Me</button>
                             </div>
