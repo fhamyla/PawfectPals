@@ -415,17 +415,6 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="about-image">
-                        <div class="image-container">
-                            <img src="/cat.png" alt="Happy cat illustration" class="about-cat-image">
-                            <div class="floating-paws">
-                                <span class="paw">🐾</span>
-                                <span class="paw">🐾</span>
-                                <span class="paw">🐾</span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>

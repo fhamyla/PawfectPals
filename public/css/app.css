@@ -604,14 +604,14 @@ body {
 }
 
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .about-text {
-    max-width: 600px;
+    max-width: 800px;
+    text-align: center;
 }
 
 .about-description p {
@@ -655,64 +655,7 @@ body {
     margin: 0;
 }
 
-.about-image {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.image-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-cat-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 20px;
-    animation: float 6s ease-in-out infinite;
-}
-
-.floating-paws {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-}
-
-.paw {
-    position: absolute;
-    font-size: 1.5rem;
-    opacity: 0.6;
-    animation: paw-float 4s ease-in-out infinite;
-}
-
-.paw:nth-child(1) {
-    top: 10%;
-    left: 10%;
-    animation-delay: 0s;
-}
-
-.paw:nth-child(2) {
-    top: 20%;
-    right: 15%;
-    animation-delay: 1.5s;
-}
-
-.paw:nth-child(3) {
-    bottom: 20%;
-    left: 15%;
-    animation-delay: 3s;
-}
-
-@keyframes paw-float {
-    0%, 100% { transform: translateY(0px) rotate(0deg); }
-    50% { transform: translateY(-10px) rotate(5deg); }
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -789,8 +732,6 @@ body {
     }
 
     .about-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
         text-align: center;
     }
 
@@ -800,10 +741,6 @@ body {
 
     .feature-item {
         text-align: left;
-    }
-
-    .about-cat-image {
-        max-width: 300px;
     }
 }
 
