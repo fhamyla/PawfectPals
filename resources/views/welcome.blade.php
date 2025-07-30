@@ -259,6 +259,120 @@
             </div>
         </section>
 
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What Our Happy Renters Say</h2>
+                    <p class="section-subtitle">Real stories from real cat lovers</p>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Luna made my week! She's the perfect companion for my quiet evenings. I can't wait to rent her again!</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>👩‍💼</span>
+                            </div>
+                            <div class="author-info">
+                                <h4 class="author-name">Sarah Johnson</h4>
+                                <p class="author-title">Cat Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Mr. Whiskers is absolutely adorable! He kept me entertained all weekend with his playful antics.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>👨‍💻</span>
+                            </div>
+                            <div class="author-info">
+                                <h4 class="author-name">Mike Chen</h4>
+                                <p class="author-title">Weekend Warrior</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Bella is the sweetest cat I've ever met. She sat with me while I worked and made my home feel complete.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>👩‍🎨</span>
+                            </div>
+                            <div class="author-info">
+                                <h4 class="author-name">Emma Rodriguez</h4>
+                                <p class="author-title">Creative Professional</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Shadow's mysterious personality was exactly what I needed. Such a unique and curious companion!</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>👨‍🔬</span>
+                            </div>
+                            <div class="author-info">
+                                <h4 class="author-name">David Kim</h4>
+                                <p class="author-title">Adventure Seeker</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Mittens is the perfect lap cat! She helped me relax after a stressful week. Pure therapy!</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>👩‍⚕️</span>
+                            </div>
+                            <div class="author-info">
+                                <h4 class="author-name">Dr. Lisa Thompson</h4>
+                                <p class="author-title">Healthcare Professional</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 6 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Tiger's energy is contagious! We went on so many adventures together. Best weekend ever!</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>👨‍🏃‍♂️</span>
+                            </div>
+                            <div class="author-info">
+                                <h4 class="author-name">Alex Martinez</h4>
+                                <p class="author-title">Fitness Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- JavaScript for smooth scrolling -->
         <script>
             // Smooth scrolling for anchor links
