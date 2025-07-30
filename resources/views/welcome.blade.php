@@ -419,6 +419,128 @@
             </div>
         </section>
 
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-subtitle">Ready to meet your purr-fect companion?</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <p>hello@pawfectpals.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Visit Us</h4>
+                                <p>123 Cat Street, Purr City, PC 12345</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div class="contact-details">
+                                <h4>Hours</h4>
+                                <p>Mon-Fri: 9AM-6PM<br>Sat-Sun: 10AM-4PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form class="contact-form-content">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a Topic</option>
+                                    <option value="booking">Book a Cat</option>
+                                    <option value="questions">General Questions</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="partnership">Partnership</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <div class="logo-icon">
+                                <img src="/android-chrome-192x192.svg" alt="Pawfect Pals Logo" width="30" height="30">
+                            </div>
+                            <span>Pawfect Pals</span>
+                        </div>
+                        <p class="footer-tagline">Your Purr-fect Cat Companion Awaits</p>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#cats">Browse Cats</a></li>
+                            <li><a href="#how-it-works">How It Works</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#faqs">FAQs</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-social">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">📷 Instagram</a>
+                            <a href="#" class="social-icon">🎵 TikTok</a>
+                            <a href="#" class="social-icon">📘 Facebook</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-separator">
+                    <span class="paw-separator">🐾</span>
+                    <span class="paw-separator">🐾</span>
+                    <span class="paw-separator">🐾</span>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Pawfect Pals. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
         <!-- JavaScript for smooth scrolling -->
         <script>
             // Smooth scrolling for anchor links
