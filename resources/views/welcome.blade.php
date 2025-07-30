@@ -386,7 +386,7 @@
 
                     <!-- Right Column: Cat Image -->
                     <div class="hero-image">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDQwMCA0MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiByeD0iMjAiIGZpbGw9IiNGRkY4RjIiLz4KPGNpcmNsZSBjeD0iMTIwIiBjeT0iMTIwIiByPSI0MCIgZmlsbD0iI0ZGRDFEQyIvPgo8Y2lyY2xlIGN4PSIyODAiIGN5PSIxMjAiIHI9IjQwIiBmaWxsPSIjRkZEMURDIi8+CjxlbGxpcHNlIGN4PSIyMDAiIGN5PSIyMDAiIHJ4PSI4MCIgcnk9IjYwIiBmaWxsPSIjRkZEMURDIi8+CjxwYXRoIGQ9Ik0xNjAgMjgwIFEyMDAgMzIwIDI0MCAyODAiIHN0cm9rZT0iIzVGN0Y1RiIgc3Ryb2tlLXdpZHRoPSI0IiBmaWxsPSJub25lIi8+CjxwYXRoIGQ9Ik0yNDAgMjgwIFEyODAgMzIwIDMyMCAyODAiIHN0cm9rZT0iIzVGN0Y1RiIgc3Ryb2tlLXdpZHRoPSI0IiBmaWxsPSJub25lIi8+CjxjaXJjbGUgY3g9IjE4MCIgY3k9IjE2MCIgcj0iOCIgZmlsbD0iIzVGN0Y1RiIvPgo8Y2lyY2xlIGN4PSIyMjAiIGN5PSIxNjAiIHI9IjgiIGZpbGw9IiM1RjdGNUYiLz4KPHBhdGggZD0iTTE5MCAxODAgTDIxMCAxODAgTDIwMCAxOTAiIHN0cm9rZT0iIzVGN0Y1RiIgc3Ryb2tlLXdpZHRoPSIzIiBmaWxsPSJub25lIi8+CjxwYXRoIGQ9Ik0xNjAgMjQwIEwyNDAgMjQwIiBzdHJva2U9IiNGRkUxN0QiIHN0cm9rZS13aWR0aD0iMyIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K" alt="Cute cat illustration" class="cat-image">
+                        <img src="/cat.png" alt="Cute cat illustration" class="cat-image">
                         
                         <!-- Floating Elements -->
                         <div class="floating-elements">
