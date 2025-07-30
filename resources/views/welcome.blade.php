@@ -203,7 +203,7 @@
                 align-items: center;
             }
 
-            .cat-image {
+            .hero-image .cat-image {
                 width: 100%;
                 max-width: 400px;
                 height: auto;
@@ -345,6 +345,171 @@
                     min-width: 120px;
                 }
             }
+
+            /* Featured Cats Section */
+            .featured-cats {
+                padding: 4rem 0;
+                background-color: var(--white);
+            }
+
+            .section-header {
+                text-align: center;
+                margin-bottom: 3rem;
+            }
+
+            .section-title {
+                font-family: 'Poppins', sans-serif;
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: var(--gray);
+                margin-bottom: 1rem;
+            }
+
+            .section-subtitle {
+                font-size: 1.1rem;
+                color: var(--gray);
+                opacity: 0.8;
+            }
+
+            .cats-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+                margin-bottom: 3rem;
+            }
+
+            .cat-card {
+                background: var(--white);
+                border-radius: 20px;
+                overflow: hidden;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                transition: all 0.3s ease;
+                border: 2px solid transparent;
+            }
+
+            .cat-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+                border-color: var(--soft-pink);
+            }
+
+            .cat-image {
+                position: relative;
+                height: 250px;
+                overflow: hidden;
+            }
+
+            .cat-photo {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.3s ease;
+            }
+
+            .cat-card:hover .cat-photo {
+                transform: scale(1.05);
+            }
+
+            .cat-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(255, 209, 220, 0.9);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+
+            .cat-card:hover .cat-overlay {
+                opacity: 1;
+            }
+
+            .rent-btn {
+                background: var(--white);
+                color: var(--soft-pink);
+                border: 2px solid var(--white);
+                padding: 0.8rem 2rem;
+                border-radius: 50px;
+                font-weight: 600;
+                font-size: 1rem;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+            .rent-btn:hover {
+                background: transparent;
+                color: var(--white);
+                transform: scale(1.05);
+            }
+
+            .cat-info {
+                padding: 1.5rem;
+            }
+
+            .cat-name {
+                font-family: 'Poppins', sans-serif;
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: var(--gray);
+                margin-bottom: 1rem;
+            }
+
+            .cat-tags {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                margin-bottom: 1rem;
+            }
+
+            .tag {
+                background: var(--soft-pink);
+                color: var(--gray);
+                padding: 0.3rem 0.8rem;
+                border-radius: 20px;
+                font-size: 0.8rem;
+                font-weight: 500;
+            }
+
+            .cat-description {
+                color: var(--gray);
+                opacity: 0.8;
+                line-height: 1.5;
+                font-size: 0.9rem;
+            }
+
+            .view-all-container {
+                text-align: center;
+            }
+
+            /* Responsive adjustments for cats section */
+            @media (max-width: 768px) {
+                .cats-grid {
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    gap: 1.5rem;
+                }
+
+                .section-title {
+                    font-size: 2rem;
+                }
+
+                .cat-image {
+                    height: 200px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .cats-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .section-title {
+                    font-size: 1.8rem;
+                }
+            }
         </style>
     </head>
     <body>
@@ -386,7 +551,7 @@
 
                     <!-- Right Column: Cat Image -->
                     <div class="hero-image">
-                        <img src="/cat.png" alt="Cute cat illustration" class="cat-image">
+                        <img src="/catcopy.png" alt="Cute cat illustration" class="cat-image">
                         
                         <!-- Floating Elements -->
                         <div class="floating-elements">
@@ -406,6 +571,136 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Cats Section -->
+        <section class="featured-cats" id="cats">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Meet Our Featured Felines</h2>
+                    <p class="section-subtitle">Find your perfect purr-fect companion</p>
+                </div>
+                
+                <div class="cats-grid">
+                    <!-- Cat Card 1 -->
+                    <div class="cat-card">
+                        <div class="cat-image">
+                            <img src="/cat.png" alt="Luna" class="cat-photo">
+                            <div class="cat-overlay">
+                                <button class="rent-btn">Rent Me</button>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <h3 class="cat-name">Luna</h3>
+                            <div class="cat-tags">
+                                <span class="tag">💤 Chill</span>
+                                <span class="tag">🐾 Playful</span>
+                                <span class="tag">❤️ Affectionate</span>
+                            </div>
+                            <p class="cat-description">A gentle soul who loves cuddles and sunny spots.</p>
+                        </div>
+                    </div>
+
+                    <!-- Cat Card 2 -->
+                    <div class="cat-card">
+                        <div class="cat-image">
+                            <img src="/cat.png" alt="Mr. Whiskers" class="cat-photo">
+                            <div class="cat-overlay">
+                                <button class="rent-btn">Rent Me</button>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <h3 class="cat-name">Mr. Whiskers</h3>
+                            <div class="cat-tags">
+                                <span class="tag">🎾 Energetic</span>
+                                <span class="tag">🐾 Playful</span>
+                                <span class="tag">🏃‍♂️ Active</span>
+                            </div>
+                            <p class="cat-description">Always ready for a game of chase and adventure!</p>
+                        </div>
+                    </div>
+
+                    <!-- Cat Card 3 -->
+                    <div class="cat-card">
+                        <div class="cat-image">
+                            <img src="/cat.png" alt="Bella" class="cat-photo">
+                            <div class="cat-overlay">
+                                <button class="rent-btn">Rent Me</button>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <h3 class="cat-name">Bella</h3>
+                            <div class="cat-tags">
+                                <span class="tag">💤 Chill</span>
+                                <span class="tag">❤️ Affectionate</span>
+                                <span class="tag">🎨 Artistic</span>
+                            </div>
+                            <p class="cat-description">A creative spirit who loves to watch you work.</p>
+                        </div>
+                    </div>
+
+                    <!-- Cat Card 4 -->
+                    <div class="cat-card">
+                        <div class="cat-image">
+                            <img src="/cat.png" alt="Shadow" class="cat-photo">
+                            <div class="cat-overlay">
+                                <button class="rent-btn">Rent Me</button>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <h3 class="cat-name">Shadow</h3>
+                            <div class="cat-tags">
+                                <span class="tag">🔍 Curious</span>
+                                <span class="tag">🐾 Playful</span>
+                                <span class="tag">🌟 Mysterious</span>
+                            </div>
+                            <p class="cat-description">Mysterious and curious, always exploring new places.</p>
+                        </div>
+                    </div>
+
+                    <!-- Cat Card 5 -->
+                    <div class="cat-card">
+                        <div class="cat-image">
+                            <img src="/cat.png" alt="Mittens" class="cat-photo">
+                            <div class="cat-overlay">
+                                <button class="rent-btn">Rent Me</button>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <h3 class="cat-name">Mittens</h3>
+                            <div class="cat-tags">
+                                <span class="tag">❤️ Affectionate</span>
+                                <span class="tag">💤 Chill</span>
+                                <span class="tag">🤗 Cuddly</span>
+                            </div>
+                            <p class="cat-description">The perfect lap cat for cozy evenings together.</p>
+                        </div>
+                    </div>
+
+                    <!-- Cat Card 6 -->
+                    <div class="cat-card">
+                        <div class="cat-image">
+                            <img src="/cat.png" alt="Tiger" class="cat-photo">
+                            <div class="cat-overlay">
+                                <button class="rent-btn">Rent Me</button>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <h3 class="cat-name">Tiger</h3>
+                            <div class="cat-tags">
+                                <span class="tag">🎾 Energetic</span>
+                                <span class="tag">🏃‍♂️ Active</span>
+                                <span class="tag">🌟 Adventurous</span>
+                            </div>
+                            <p class="cat-description">Wild at heart, ready for outdoor adventures!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-all-container">
+                    <a href="#cats" class="btn btn-primary">View All Cats</a>
                 </div>
             </div>
         </section>
