@@ -328,7 +328,7 @@ body {
 .cat-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    border-color: var(--soft-pink);
+    border-color: var(--accent-yellow);
 }
 
 .cat-image {
@@ -354,7 +354,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 209, 220, 0.9);
+    background: rgba(255, 225, 125, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -368,7 +368,7 @@ body {
 
 .rent-btn {
     background: var(--white);
-    color: var(--soft-pink);
+    color: var(--accent-yellow);
     border: 2px solid var(--white);
     padding: 0.8rem 2rem;
     border-radius: 50px;
@@ -404,7 +404,7 @@ body {
 }
 
 .tag {
-    background: var(--soft-pink);
+    background: var(--accent-yellow);
     color: var(--gray);
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
