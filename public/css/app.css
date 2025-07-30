@@ -544,16 +544,17 @@ body {
     color: var(--accent-yellow);
     font-family: 'Pacifico', cursive;
     position: absolute;
-    top: -10px;
-    left: -10px;
-    opacity: 0.8;
+    top: -15px;
+    left: -15px;
+    opacity: 0.6;
 }
 
 .testimonial-text {
     color: var(--gray);
     font-size: 1rem;
     line-height: 1.6;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
     font-style: italic;
 }
 
