@@ -597,6 +597,123 @@ body {
     margin: 0;
 }
 
+/* About Section */
+.about {
+    padding: 4rem 0;
+    background-color: var(--cream);
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-description p {
+    color: var(--gray);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+.about-features {
+    margin-top: 2rem;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.feature-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+}
+
+.feature-text h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--gray);
+    margin: 0 0 0.5rem 0;
+}
+
+.feature-text p {
+    color: var(--gray);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.about-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-cat-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    animation: float 6s ease-in-out infinite;
+}
+
+.floating-paws {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.paw {
+    position: absolute;
+    font-size: 1.5rem;
+    opacity: 0.6;
+    animation: paw-float 4s ease-in-out infinite;
+}
+
+.paw:nth-child(1) {
+    top: 10%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.paw:nth-child(2) {
+    top: 20%;
+    right: 15%;
+    animation-delay: 1.5s;
+}
+
+.paw:nth-child(3) {
+    bottom: 20%;
+    left: 15%;
+    animation-delay: 3s;
+}
+
+@keyframes paw-float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(5deg); }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-content {
@@ -669,6 +786,24 @@ body {
 
     .quote-icon {
         font-size: 2.5rem;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .about-text {
+        max-width: 100%;
+    }
+
+    .feature-item {
+        text-align: left;
+    }
+
+    .about-cat-image {
+        max-width: 300px;
     }
 }
 

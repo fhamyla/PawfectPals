@@ -373,6 +373,63 @@
             </div>
         </section>
 
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="section-header">
+                            <h2 class="section-title">About Pawfect Pals</h2>
+                            <p class="section-subtitle">Connecting hearts, one purr at a time</p>
+                        </div>
+                        
+                        <div class="about-description">
+                            <p>Pawfect Pals connects loving cats with people looking for companionship. Whether you're lonely, curious, or just a cat lover, we've got a furry friend for you.</p>
+                            
+                            <p>Our mission is simple: to bring joy, comfort, and companionship to people's lives through the magic of cat companionship. We believe everyone deserves to experience the unconditional love and calming presence that cats provide.</p>
+                            
+                            <div class="about-features">
+                                <div class="feature-item">
+                                    <div class="feature-icon">🏠</div>
+                                    <div class="feature-text">
+                                        <h4>Safe & Loving Homes</h4>
+                                        <p>All our cats come from caring environments and are well-socialized.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="feature-item">
+                                    <div class="feature-icon">❤️</div>
+                                    <div class="feature-text">
+                                        <h4>Flexible Companionship</h4>
+                                        <p>Choose from daily visits to weekend stays - whatever fits your lifestyle.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="feature-item">
+                                    <div class="feature-icon">🐾</div>
+                                    <div class="feature-text">
+                                        <h4>Purr-fect Matches</h4>
+                                        <p>We help you find the cat that matches your personality and schedule.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <div class="image-container">
+                            <img src="/cat.png" alt="Happy cat illustration" class="about-cat-image">
+                            <div class="floating-paws">
+                                <span class="paw">🐾</span>
+                                <span class="paw">🐾</span>
+                                <span class="paw">🐾</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- JavaScript for smooth scrolling -->
         <script>
             // Smooth scrolling for anchor links
