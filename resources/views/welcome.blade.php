@@ -26,9 +26,6 @@
             <div class="container">
                 <nav class="nav">
                     <div class="logo">
-                        <div class="logo-icon">
-                            <img src="/android-chrome-192x192.svg" alt="Pawfect Pals Logo" width="30" height="30">
-                        </div>
                         <span>Pawfect Pals</span>
                     </div>
                     <ul class="nav-links">
@@ -428,40 +425,6 @@
                 </div>
                 
                 <div class="contact-content">
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <div class="contact-icon">📧</div>
-                            <div class="contact-details">
-                                <h4>Email Us</h4>
-                                <p>hello@pawfectpals.com</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">📱</div>
-                            <div class="contact-details">
-                                <h4>Call Us</h4>
-                                <p>+1 (555) 123-4567</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">📍</div>
-                            <div class="contact-details">
-                                <h4>Visit Us</h4>
-                                <p>123 Cat Street, Purr City, PC 12345</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">🕒</div>
-                            <div class="contact-details">
-                                <h4>Hours</h4>
-                                <p>Mon-Fri: 9AM-6PM<br>Sat-Sun: 10AM-4PM</p>
-                            </div>
-                        </div>
-                    </div>
-                    
                     <div class="contact-form">
                         <h3>Send us a Message</h3>
                         <form class="contact-form-content">
@@ -517,6 +480,28 @@
                             <li><a href="#contact">Contact</a></li>
                             <li><a href="#faqs">FAQs</a></li>
                         </ul>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <h4>Contact Info</h4>
+                        <div class="contact-info-list">
+                            <div class="contact-info-item">
+                                <span class="contact-icon">📧</span>
+                                <span>hello@pawfectpals.com</span>
+                            </div>
+                            <div class="contact-info-item">
+                                <span class="contact-icon">📱</span>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                            <div class="contact-info-item">
+                                <span class="contact-icon">📍</span>
+                                <span>123 Cat Street, Purr City, PC 12345</span>
+                            </div>
+                            <div class="contact-info-item">
+                                <span class="contact-icon">🕒</span>
+                                <span>Mon-Fri: 9AM-6PM<br>Sat-Sun: 10AM-4PM</span>
+                            </div>
+                        </div>
                     </div>
                     
                     <div class="footer-social">
