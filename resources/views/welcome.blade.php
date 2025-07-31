@@ -427,7 +427,8 @@
                 <div class="contact-content">
                     <div class="contact-form">
                         <h3>Send us a Message</h3>
-                        <form class="contact-form-content" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="{{ config('app.env') === 'production' ? '' : '#' }}">
+                        <form class="contact-form-content" method="POST" action="/contact">
+                            @csrf
                             <input type="hidden" name="form-name" value="contact" />
                             <p class="hidden">
                                 <label>Don't fill this out if you're human: <input name="bot-field" /></label>
@@ -578,30 +579,12 @@
                 }
             });
 
-            // Handle contact form submission locally
+            // Handle contact form submission
             const contactForm = document.querySelector('.contact-form-content');
             if (contactForm) {
                 contactForm.addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    
-                    // Get form data
-                    const formData = new FormData(this);
-                    const name = formData.get('name');
-                    const email = formData.get('email');
-                    const subject = formData.get('subject');
-                    const message = formData.get('message');
-                    
-                    // Validate form
-                    if (!name || !email || !subject || !message) {
-                        alert('Please fill in all fields.');
-                        return;
-                    }
-                    
-                    // Show success message
-                    alert('Thank you for your message! In production, this would be sent to our email. For now, this is a demo.');
-                    
-                    // Reset form
-                    this.reset();
+                    // Let the form submit normally to Laravel
+                    // Laravel will handle the email sending
                 });
             }
         });
