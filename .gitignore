@@ -47,3 +47,6 @@ nova-components/
 *.bak
 *.tmp
 *.temp
+
+# Local Netlify folder
+.netlify

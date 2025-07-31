@@ -1134,3 +1134,8 @@ body {
     margin: 0;
     font-size: 0.7rem;
 }
+
+/* Netlify form honeypot */
+.hidden {
+    display: none;
+}
