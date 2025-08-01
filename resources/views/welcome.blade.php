@@ -427,6 +427,13 @@
                 <div class="contact-content">
                     <div class="contact-form">
                         <h3>Send us a Message</h3>
+                        
+                        @if(session('success'))
+                            <script>
+                                alert("{{ session('success') }}");
+                            </script>
+                        @endif
+                        
                         <form class="contact-form-content" method="POST" action="/contact">
                             @csrf
                             <input type="hidden" name="form-name" value="contact" />
