@@ -18,7 +18,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <link rel="stylesheet" href="/build/assets/app-CRYF0RtE.css">
+        <script type="module" src="/build/assets/app-Lr94cIcj.js"></script>
+        <!-- Fallback CSS -->
+        <link rel="stylesheet" href="/css/app.css">
     </head>
     <body>
         <!-- Header -->
