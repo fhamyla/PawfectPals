@@ -1,9 +1,0 @@
-{
-  "name": "netlify-functions",
-  "version": "1.0.0",
-  "description": "Netlify functions for contact form",
-  "main": "contact.js",
-  "dependencies": {
-    "nodemailer": "^6.9.1"
-  }
-} 

@@ -48,5 +48,4 @@ nova-components/
 *.tmp
 *.temp
 
-# Local Netlify folder
-.netlify
+
