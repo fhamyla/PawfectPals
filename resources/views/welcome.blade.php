@@ -18,12 +18,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        @if(app()->environment('production'))
-            <link rel="stylesheet" href="{{ asset('build/assets/app-CRYF0RtE.css') }}">
-            <script type="module" src="{{ asset('build/assets/app-Lr94cIcj.js') }}"></script>
-        @else
-            @vite(['resources/css/app.css', 'resources/js/app.js'])
-        @endif
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
         <!-- Header -->
