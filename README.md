@@ -49,28 +49,6 @@ Welcome to PawfectPals! This is a Laravel-based project.
    ```
    This will watch for changes in your assets and automatically rebuild them
 
-## Deployment
-
-This project is configured for deployment on Railway. See [RAILWAY_DEPLOYMENT.md](RAILWAY_DEPLOYMENT.md) for detailed deployment instructions.
-
-### Quick Railway Deployment
-
-1. **Install Railway CLI**
-   ```bash
-   npm install -g @railway/cli
-   ```
-
-2. **Login to Railway**
-   ```bash
-   railway login
-   ```
-
-3. **Deploy**
-   ```bash
-   railway init
-   railway up
-   ```
-
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
