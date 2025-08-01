@@ -18,25 +18,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="/build/assets/app-CRYF0RtE.css">
-        <script type="module" src="/build/assets/app-Lr94cIcj.js"></script>
-        <!-- Fallback CSS -->
-        <link rel="stylesheet" href="/css/app.css">
-        <!-- Test Inline CSS -->
-        <style>
-            body { 
-                font-family: 'Poppins', sans-serif; 
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: white;
-                margin: 0;
-                padding: 20px;
-            }
-            .header { background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; }
-            .hero-title { font-size: 3rem; font-weight: bold; text-align: center; }
-            .nav-links { list-style: none; padding: 0; }
-            .nav-links li { display: inline; margin: 0 15px; }
-            .nav-links a { color: white; text-decoration: none; }
-        </style>
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
         <!-- Header -->
