@@ -42,11 +42,23 @@ In the Render dashboard, go to **Environment** tab and add:
 ```
 APP_ENV=production
 APP_DEBUG=false
-APP_KEY=your-generated-key
+APP_KEY=base64:56gSdzC0aSYbFIs6DxrbMlWPSJEmP8sJ3bZbf6LAZqc=
 APP_URL=https://your-app-name.onrender.com
 CACHE_DRIVER=file
 SESSION_DRIVER=file
 QUEUE_CONNECTION=sync
+```
+
+### Gmail SMTP Configuration (for contact form):
+```
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=your-email@gmail.com
+MAIL_PASSWORD=your-16-character-app-password
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=your-email@gmail.com
+MAIL_FROM_NAME="PawfectPals"
 ```
 
 ### Generate APP_KEY:
