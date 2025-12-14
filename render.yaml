@@ -9,7 +9,7 @@ services:
         value: production
       - key: QUEUE_CONNECTION
         value: database
-  
+
   - type: background_worker
     name: pawfectpals-queue-worker
     env: php
