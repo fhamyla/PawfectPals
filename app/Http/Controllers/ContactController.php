@@ -28,11 +28,11 @@ class ContactController extends Controller
         // Create HTML email content manually
         $htmlContent = $this->createEmailContent($formData);
 
-        // Send email with HTML content
+        // Queue email for asynchronous sending
         Mail::html($htmlContent, function($message) use ($formData) {
             $message->to(env('GMAIL_USER'))
                     ->subject('Contact Form: ' . $formData['subject'] . ' - ' . $formData['name']);
-        });
+        })->queue();
 
         return redirect()->back()->with('success', 'Thank you for your message!');
     }
