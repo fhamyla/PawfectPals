@@ -97,7 +97,6 @@ body {
     color: var(--soft-pink);
 }
 
-/* Hero Section */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -259,7 +258,6 @@ body {
     50% { transform: translateY(-15px) rotate(5deg); }
 }
 
-/* Shadow Box Styles */
 .shadow-box {
     position: absolute;
     bottom: -20px;
@@ -307,7 +305,6 @@ body {
     50% { transform: translateX(-50%) translateY(-5px); }
 }
 
-/* Featured Cats Section */
 .featured-cats {
     padding: 4rem 0;
     background-color: var(--white);
@@ -446,7 +443,6 @@ body {
     text-align: center;
 }
 
-/* How It Works Section */
 .how-it-works {
     padding: 4rem 0;
     background-color: var(--cream);
@@ -528,7 +524,6 @@ body {
     margin-top: 2rem;
 }
 
-/* Testimonials Section */
 .testimonials {
     padding: 4rem 0;
     background-color: var(--white);
@@ -699,9 +694,6 @@ body {
     margin: 0;
 }
 
-
-
-/* Responsive Design */
 @media (max-width: 768px) {
     .hero-content {
         grid-template-columns: 1fr;
@@ -810,7 +802,7 @@ body {
     .form-group input,
     .form-group select,
     .form-group textarea {
-        font-size: 16px; /* Prevents zoom on iOS */
+        font-size: 16px;
     }
 
     .contact-item {
@@ -911,7 +903,7 @@ body {
     }
 }
 
-/* Contact Section */
+
 .contact {
     padding: 4rem 0;
     background-color: var(--cream);
@@ -997,7 +989,6 @@ body {
     font-size: 1.1rem;
 }
 
-/* Footer */
 .footer {
     background-color: var(--gray);
     color: var(--white);
@@ -1135,12 +1126,10 @@ body {
     font-size: 0.7rem;
 }
 
-/* Netlify form honeypot */
 .hidden {
     display: none;
 }
 
-/* Success Message Styles */
 .success-message {
     background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
     color: white;

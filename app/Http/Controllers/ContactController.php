@@ -17,7 +17,6 @@ class ContactController extends Controller
             'message' => 'required|string|max:1000',
         ]);
 
-        // Extract form data
         $formData = [
             'name' => $request->input('name'),
             'email' => $request->input('email'),
@@ -25,10 +24,8 @@ class ContactController extends Controller
             'message' => $request->input('message'),
         ];
 
-        // Create HTML email content manually
         $htmlContent = $this->createEmailContent($formData);
 
-        // Send email with HTML content
         Mail::html($htmlContent, function($message) use ($formData) {
             $message->to(env('GMAIL_USER'))
                     ->subject('Contact Form: ' . $formData['subject'] . ' - ' . $formData['name']);

@@ -5,19 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Pawfect Pals</title>
-        
-        <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
-
-        <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
-
-        <!-- Styles -->
         <style>
 :root {
     --soft-pink: #FFD1DC;
@@ -56,7 +50,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Header */
 .header {
     background-color: var(--white);
     padding: 1rem 0;
@@ -118,7 +111,6 @@ body {
     color: var(--soft-pink);
 }
 
-/* Hero Section */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -328,7 +320,6 @@ body {
     50% { transform: translateX(-50%) translateY(-5px); }
 }
 
-/* Featured Cats Section */
 .featured-cats {
     padding: 4rem 0;
     background-color: var(--white);
@@ -467,7 +458,6 @@ body {
     text-align: center;
 }
 
-/* How It Works Section */
 .how-it-works {
     padding: 4rem 0;
     background-color: var(--cream);
@@ -549,7 +539,6 @@ body {
     margin-top: 2rem;
 }
 
-/* Testimonials Section */
 .testimonials {
     padding: 4rem 0;
     background-color: var(--white);
@@ -641,7 +630,6 @@ body {
     margin: 0;
 }
 
-/* About Section */
 .about {
     padding: 4rem 0;
     background-color: var(--cream);
@@ -720,9 +708,6 @@ body {
     margin: 0;
 }
 
-
-
-/* Responsive Design */
 @media (max-width: 768px) {
     .hero-content {
         grid-template-columns: 1fr;
@@ -831,7 +816,7 @@ body {
     .form-group input,
     .form-group select,
     .form-group textarea {
-        font-size: 16px; /* Prevents zoom on iOS */
+        font-size: 16px;
     }
 
     .contact-item {
@@ -932,7 +917,6 @@ body {
     }
 }
 
-/* Contact Section */
 .contact {
     padding: 4rem 0;
     background-color: var(--cream);
@@ -1018,7 +1002,6 @@ body {
     font-size: 1.1rem;
 }
 
-/* Footer */
 .footer {
     background-color: var(--gray);
     color: var(--white);
@@ -1156,12 +1139,10 @@ body {
     font-size: 0.7rem;
 }
 
-/* Netlify form honeypot */
 .hidden {
     display: none;
 }
 
-/* Success Message Styles */
 .success-message {
     background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
     color: white;
@@ -1205,7 +1186,6 @@ body {
         </style>
     </head>
     <body>
-        <!-- Header -->
         <header class="header">
             <div class="container">
                 <nav class="nav">
@@ -1223,11 +1203,9 @@ body {
             </div>
         </header>
 
-        <!-- Hero Section -->
         <section class="hero" id="home">
             <div class="container">
                 <div class="hero-content">
-                    <!-- Left Column: Text Content -->
                     <div class="hero-text">
                         <h1 class="hero-title">Rent a Cat. Cuddle. Repeat.</h1>
                         <p class="hero-subtitle">Find your perfect feline companion for a day, weekend, or longer. Experience the joy of cat companionship without the long-term commitment.</p>
@@ -1238,18 +1216,15 @@ body {
                         </div>
                     </div>
 
-                    <!-- Right Column: Cat Image -->
                     <div class="hero-image">
                         <img src="/catcopy.png" alt="Cute cat illustration" class="cat-image">
                         
-                        <!-- Floating Elements -->
                         <div class="floating-elements">
                             <div class="floating-element">🐾</div>
                             <div class="floating-element">❤️</div>
                             <div class="floating-element">😺</div>
                         </div>
                         
-                        <!-- Shadow Box Below Cat Image -->
                         <div class="shadow-box">
                             <div class="shadow-box-content">
                                 <div class="shadow-box-icon">🏠</div>
@@ -1264,7 +1239,6 @@ body {
             </div>
         </section>
 
-        <!-- Featured Cats Section -->
         <section class="featured-cats" id="cats">
             <div class="container">
                 <div class="section-header">
@@ -1273,7 +1247,6 @@ body {
                 </div>
                 
                 <div class="cats-grid">
-                    <!-- Cat Card 1 -->
                     <div class="cat-card">
                         <div class="cat-image">
                             <img src="/luna.jpg" alt="Luna" class="cat-photo">
@@ -1292,7 +1265,6 @@ body {
                         </div>
                     </div>
 
-                    <!-- Cat Card 2 -->
                     <div class="cat-card">
                         <div class="cat-image">
                             <img src="/whiskers.jpg" alt="Mr. Whiskers" class="cat-photo">
@@ -1311,7 +1283,6 @@ body {
                         </div>
                     </div>
 
-                    <!-- Cat Card 3 -->
                     <div class="cat-card">
                         <div class="cat-image">
                             <img src="/bella.jpg" alt="Bella" class="cat-photo">
@@ -1330,7 +1301,6 @@ body {
                         </div>
                     </div>
 
-                    <!-- Cat Card 4 -->
                     <div class="cat-card">
                         <div class="cat-image">
                             <img src="/shadow.jpg" alt="Shadow" class="cat-photo">
@@ -1349,7 +1319,6 @@ body {
                         </div>
                     </div>
 
-                    <!-- Cat Card 5 -->
                     <div class="cat-card">
                         <div class="cat-image">
                             <img src="/mittens.jpg" alt="Mittens" class="cat-photo">
@@ -1368,7 +1337,6 @@ body {
                         </div>
                     </div>
 
-                    <!-- Cat Card 6 -->
                     <div class="cat-card">
                         <div class="cat-image">
                             <img src="/tiger.jpg" alt="Tiger" class="cat-photo">
@@ -1394,7 +1362,6 @@ body {
             </div>
         </section>
 
-        <!-- How It Works Section -->
         <section class="how-it-works" id="how-it-works">
             <div class="container">
                 <div class="section-header">
@@ -1403,7 +1370,6 @@ body {
                 </div>
                 
                 <div class="steps-grid">
-                    <!-- Step 1 -->
                     <div class="step-card">
                         <div class="step-icon">
                             <span>🐾</span>
@@ -1413,7 +1379,6 @@ body {
                         <p class="step-description">Browse our adorable cats and find the one that matches your personality and lifestyle.</p>
                     </div>
 
-                    <!-- Step 2 -->
                     <div class="step-card">
                         <div class="step-icon">
                             <span>📅</span>
@@ -1423,7 +1388,6 @@ body {
                         <p class="step-description">Choose your preferred dates and duration. We offer flexible booking options to fit your schedule.</p>
                     </div>
 
-                    <!-- Step 3 -->
                     <div class="step-card">
                         <div class="step-icon">
                             <span>❤️</span>
@@ -1440,7 +1404,6 @@ body {
             </div>
         </section>
 
-        <!-- Testimonials Section -->
         <section class="testimonials" id="testimonials">
             <div class="container">
                 <div class="section-header">
@@ -1449,7 +1412,6 @@ body {
                 </div>
                 
                 <div class="testimonials-grid">
-                    <!-- Testimonial 1 -->
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <div class="quote-icon">"</div>
@@ -1466,7 +1428,6 @@ body {
                         </div>
                     </div>
 
-                    <!-- Testimonial 2 -->
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <div class="quote-icon">"</div>
@@ -1483,7 +1444,6 @@ body {
                         </div>
                     </div>
 
-                    <!-- Testimonial 3 -->
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <div class="quote-icon">"</div>
@@ -1500,7 +1460,6 @@ body {
                         </div>
                     </div>
 
-                    <!-- Testimonial 4 -->
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <div class="quote-icon">"</div>
@@ -1517,7 +1476,6 @@ body {
                         </div>
                     </div>
 
-                    <!-- Testimonial 5 -->
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <div class="quote-icon">"</div>
@@ -1554,7 +1512,6 @@ body {
             </div>
         </section>
 
-        <!-- About Section -->
         <section class="about" id="about">
             <div class="container">
                 <div class="about-content">
@@ -1600,7 +1557,6 @@ body {
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section class="contact" id="contact">
             <div class="container">
                 <div class="section-header">
@@ -1654,7 +1610,6 @@ body {
             </div>
         </section>
 
-        <!-- Footer -->
         <footer class="footer">
             <div class="container">
                 <div class="footer-content">
@@ -1725,14 +1680,12 @@ body {
                 </div>
                 
                 <div class="footer-bottom">
-                    <p>&copy; 2025 fhamyla. All rights reserved.</p>
+                    <p>&copy; <span id="currentYear"></span> fhamyla. All rights reserved.</p>
                 </div>
             </div>
         </footer>
 
-        <!-- JavaScript for smooth scrolling -->
         <script>
-            // Smooth scrolling for anchor links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
@@ -1746,9 +1699,7 @@ body {
                 });
             });
 
-            // Add some interactive effects
             document.addEventListener('DOMContentLoaded', function() {
-                // Add hover effect to buttons
                 const buttons = document.querySelectorAll('.btn');
                 buttons.forEach(button => {
                     button.addEventListener('mouseenter', function() {
@@ -1759,8 +1710,7 @@ body {
                         this.style.transform = 'translateY(0)';
                     });
                 });
-
-                            // Add scroll effect to hero title
+                
             const heroTitle = document.querySelector('.hero-title');
             window.addEventListener('scroll', function() {
                 const scrolled = window.pageYOffset;
@@ -1770,14 +1720,13 @@ body {
                 }
             });
 
-            // Handle contact form submission
             const contactForm = document.querySelector('.contact-form-content');
             if (contactForm) {
                 contactForm.addEventListener('submit', function(e) {
-                    // Let the form submit normally to Laravel
-                    // Laravel will handle the email sending
                 });
             }
+
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
         });
     </script>
     </body>
